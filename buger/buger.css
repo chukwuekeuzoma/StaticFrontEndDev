@@ -1,5 +1,6 @@
 body{
     margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* .container div{
   background:rgba(206, 24, 24, 0.356);
@@ -26,7 +27,8 @@ body{
    color: beige;
    font-weight: bold;
    font-size:30px;
-   padding:18px;
+   padding:15px;
+
 }
 nav{
     display: flex;
@@ -102,8 +104,10 @@ nav li{
  font-weight:bold;
 }
 .sectionTwoClassA{
-    font-size:50px;
+    position: relative;
+    font-size:40px;
     font-weight:bold;
+    line-height:40px;
 }
 .sectionThreeClassA{
     display:grid;
@@ -133,15 +137,13 @@ nav li{
 .sectionFiveclassA div:first-child{
    background-color: rgb(11, 11, 12);
 }
-.sectionFiveclassA div{
-    background-color: sandybrown;
-}
 .sectionSixClassA{
   display:grid;
   grid-template-columns:33.3% 33.3% 33.3%;
   grid-auto-rows:minmax(100px,auto);
   gap: 20px;
-  margin:250px;
+  margin:200px;
+  margin-top:20px;
 }
 .sectionSevenClassA{
     background-color:black;
@@ -167,11 +169,79 @@ ul.sectionSevenClassB li{
     padding:1px;
 }
 .sectionSevenClassA div h1{
-   margin-left: 45px;
+   margin-left: 40px;
 }
+.sectionSevenClassC li{
+   margin-left:-40px;
+}
+.sectionSevenClassD li{
+    margin-left:-40px;
+}
+.sectionSevenClassE li{
+    margin-left:-40px;
+}
+.sectionSevenClassF input{
+    width:100%;
+    height:25px;
+    margin-left:-20px;
+    border-radius:5px;
+    border:1px solid white;
+    background:black;
+    color: white;
+}
+.sectionSevenClassF input::placeholder{
+    font-weight: bolder;
+    color: white;
+}
+.sectionSevenInput button{
+    position: absolute;
+     width:40%;
+     border-radius:5px;
+     bottom:0px;
+     right:0px;
+     height:25px;
+     border:none;
+ }
 .sectionEightClassA{
-    margin:none;
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding:20px;
 }
+
+.sectionSevenClassF{
+    position: relative;
+} 
+.sectionSix div{
+    text-align: center;
+}
+.sectionSixINSTA{
+  position: relative;
+  padding-top:90px;
+  font-weight: bolder;
+}
+
+.sectionFourClassB{
+    position: relative;
+    padding-top:100px;
+    font-weight: bolder;
+}
+.sectionFourtitle{
+ position: inherit;
+}
+.sectionTwotitle{
+    position: inherit;
+}
+.sectionTwoAboutus h2{
+    position: absolute;
+    background:red;
+    color:white;
+    padding:10px;
+}
+.sectionSevenInput{
+    position: relative;
+}
+
 
 
 

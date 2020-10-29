@@ -91,6 +91,7 @@ nav li{
     margin-right:10px;
 }
 .sectionTwo{
+    display:flex;
     margin:150px;
     line-height:30px;
 }
@@ -98,6 +99,7 @@ nav li{
   width:50%;
   float:right;
   margin-top:100px;
+  position: relative;
 }
 .sectionTwoA p{
  padding-left:18px;
@@ -230,16 +232,59 @@ ul.sectionSevenClassB li{
     font-weight: bolder;
 }
 .sectionFourtitle{
- position: inherit;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-image:url(images/title.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ height:60px;
+ padding-top:15px;
+ color:white;
+ font-weight:bold;
+ font-size:25px;
 }
 .sectionTwotitle{
     position: inherit;
 }
-.sectionTwoAboutus h2{
-    position: absolute;
+.sectionTwoAboutus button{
+    position:inherit;
     background:red;
     color:white;
     padding:10px;
+    margin-top:50px;
+    width:25%;
+    font-size:18px;
+    font-weight: bolder;
+    border:none;
+    border-radius:5px;
+}
+.sectionSixtitle{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-image:url(images/title.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ height:60px;
+ padding-top:15px;
+ color:white;
+ font-weight:bold;
+ font-size:25px;
+}
+.sectionTwotitle{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    background-image:url(images/title.png);
+    background-position:left;
+    background-repeat: no-repeat;
+    height:60px;
+    padding-top:15px;
+    padding-left:45px;
+    color:white;
+    font-weight:bold;
+    font-size:25px; 
 }
 
 

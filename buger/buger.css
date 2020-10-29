@@ -180,6 +180,9 @@ ul.sectionSevenClassB li{
 .sectionSevenClassE li{
     margin-left:-40px;
 }
+.sectionSevenInput{
+    position: relative;
+}
 .sectionSevenClassF input{
     width:100%;
     height:25px;
@@ -238,9 +241,7 @@ ul.sectionSevenClassB li{
     color:white;
     padding:10px;
 }
-.sectionSevenInput{
-    position: relative;
-}
+
 
 
 

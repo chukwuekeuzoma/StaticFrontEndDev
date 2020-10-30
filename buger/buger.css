@@ -2,12 +2,6 @@ body{
     margin:0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/* .container div{
-  background:rgba(206, 24, 24, 0.356);
-} */
-/* .container div:nth-child(even){
-    background: #1619ce;
-} */
 .container{
     display:grid;
     grid-auto-rows:minmax(auto, auto);
@@ -21,9 +15,6 @@ body{
     height:600px;
     background-position:center;
 }
-/* .sectionOneAA{
-    margin-top:30px;
-} */
 .sectionOneB {
    color: beige;
    font-weight: bold;

@@ -13,6 +13,7 @@ body{
     grid-auto-rows:minmax(auto, auto);
 } 
 .sectionOne{
+    position: relative;
     background-image:url('images/1.png');
     background-repeat:no-repeat;
     background-size:cover;
@@ -28,7 +29,6 @@ body{
    font-weight: bold;
    font-size:30px;
    padding:15px;
-
 }
 nav{
     display: flex;
@@ -90,32 +90,148 @@ nav li{
     border:solid white 1px;
     margin-right:10px;
 }
+.container section{
+    display: flex;
+ }
+.red__circle__container{
+    display: flex; 
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom:180px;
+}
+div.sectionOneonly{
+    background-color:red;
+    border-radius:50% ;
+    padding:15px;
+    font-size:20px;
+    font-weight: bolder;
+    color:yellow;
+    width:60px;
+    height:60px;
+    justify-self: self-end;
+    margin-right:80px;
+}
+.sectionOnebutton{
+    background:red;
+    color:white;
+    padding:10px;
+    margin-top:50px;
+    width:25%;
+    font-size:18px;
+    font-weight: bolder;
+    border:none;
+    border-radius:5px; 
+    margin-left:100px;
+}
+.sectionOnesuperburger{
+    color:white;
+    font-weight: bolder;
+    font-size:60px;
+    margin-left:100px;
+    margin-top:30px;
+}
+.sectionOneDeal{
+    color:white;
+    font-weight: bolder;
+    font-size:60px;
+    margin-left:100px;
+}
+.sectionOnetitle{
+    margin-left:150px;
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    background-image:url(images/title.png);
+    background-position:left;
+    background-repeat: no-repeat;
+    height:60px;
+    padding-top:15px;
+    padding-left:45px;
+    color:white;
+    font-weight:bold;
+    font-size:20px; 
+}
+.sectionTwoAboutus button{
+    position:inherit;
+    background:red;
+    color:white;
+    padding:10px;
+    margin-top:50px;
+    width:25%;
+    font-size:18px;
+    font-weight: bolder;
+    border:none;
+    border-radius:5px;
+}
 .sectionTwo{
     display:flex;
     margin:150px;
     line-height:30px;
 }
 .sectionTwoA{
-  width:50%;
+  position: relative;
+  width:100%;
   float:right;
   margin-top:100px;
-  position: relative;
 }
 .sectionTwoA p{
  padding-left:18px;
  font-weight:bold;
 }
 .sectionTwoClassA{
-    position: relative;
     font-size:40px;
     font-weight:bold;
     line-height:40px;
+}
+.sectionTwotitle{
+    position: inherit;
+}
+.sectionTwotitle{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    background-image:url(images/title.png);
+    background-position:left;
+    background-repeat: no-repeat;
+    height:60px;
+    padding-top:15px;
+    padding-left:45px;
+    color:white;
+    font-weight:bold;
+    font-size:25px; 
 }
 .sectionThreeClassA{
     display:grid;
     grid-template-columns:33.3% 33.3% 33.3%;
     grid-auto-columns: auto;
 }
+.sectionFourClassB{
+    position: relative;
+    padding-top:100px;
+    font-weight: bolder;
+}
+.sectionFourClassB{
+    position: relative;
+    padding-top:100px;
+    font-weight: bolder;
+}
+.sectionFourtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(images/title.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height:60px;
+    padding-top:15px;
+    padding-right:30px;
+    color:white;
+    font-weight:bold;
+    font-size:25px;
+   }
+   
 .sectionFourClassB{
    text-align: center;
 }
@@ -133,7 +249,7 @@ nav li{
 }
 .sectionFiveclassA{
     display:grid;
-    grid-template-columns:50% 50%;
+    grid-template-columns:60% 40%;
     grid-auto-rows:auto;
 }
 .sectionFiveclassA div:first-child{
@@ -147,13 +263,33 @@ nav li{
   margin:200px;
   margin-top:20px;
 }
+.sectionSix div{
+    text-align: center;
+}
+.sectionSixINSTA{
+  position: relative;
+  padding-top:90px;
+  font-weight: bolder;
+}
+.sectionSixtitle{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-image:url(images/title.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ height:60px;
+ padding-top:15px;
+ color:white;
+ font-weight:bold;
+ font-size:25px;
+}
 .sectionSevenClassA{
     background-color:black;
     height:auto;
     color: blanchedalmond;
     display:flex;
     justify-content: space-between;
-    
 }
 .sectionSevenClassA div{
  margin:20px;
@@ -165,7 +301,6 @@ ul.sectionSevenClassB{
  display: flex;
  margin-top: 20px;
  margin-left:-40px;
- 
 }
 ul.sectionSevenClassB li{
     padding:1px;
@@ -207,6 +342,9 @@ ul.sectionSevenClassB li{
      height:25px;
      border:none;
  }
+ .sectionSevenClassF{
+    position: relative;
+} 
 .sectionEightClassA{
     background-color: black;
     color:white;
@@ -214,78 +352,9 @@ ul.sectionSevenClassB li{
     padding:20px;
 }
 
-.sectionSevenClassF{
-    position: relative;
-} 
-.sectionSix div{
-    text-align: center;
-}
-.sectionSixINSTA{
-  position: relative;
-  padding-top:90px;
-  font-weight: bolder;
-}
 
-.sectionFourClassB{
-    position: relative;
-    padding-top:100px;
-    font-weight: bolder;
-}
-.sectionFourtitle{
- display: flex;
- align-items: center;
- justify-content: center;
- background-image:url(images/title.png);
- background-position: center;
- background-repeat: no-repeat;
- height:60px;
- padding-top:15px;
- color:white;
- font-weight:bold;
- font-size:25px;
-}
-.sectionTwotitle{
-    position: inherit;
-}
-.sectionTwoAboutus button{
-    position:inherit;
-    background:red;
-    color:white;
-    padding:10px;
-    margin-top:50px;
-    width:25%;
-    font-size:18px;
-    font-weight: bolder;
-    border:none;
-    border-radius:5px;
-}
-.sectionSixtitle{
- display: flex;
- align-items: center;
- justify-content: center;
- background-image:url(images/title.png);
- background-position: center;
- background-repeat: no-repeat;
- height:60px;
- padding-top:15px;
- color:white;
- font-weight:bold;
- font-size:25px;
-}
-.sectionTwotitle{
-    display: flex;
-    align-items: center;
-    justify-content:left;
-    background-image:url(images/title.png);
-    background-position:left;
-    background-repeat: no-repeat;
-    height:60px;
-    padding-top:15px;
-    padding-left:45px;
-    color:white;
-    font-weight:bold;
-    font-size:25px; 
-}
+
+
 
 
 

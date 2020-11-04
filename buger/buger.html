@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="buger.css">
+    <link rel="stylesheet" href="phonescreen.css">
+    <link rel="stylesheet" href="Animation.css">
+    <script src="buger.js"></script> 
     <title>Buger</title>
 </head>
 
@@ -12,7 +16,26 @@
     <div class="container">
         <div class="sectionOne">
             <nav>
+                <i class="fa fa-bars fa-3x">
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">AboutUs</a></li>
+                            <li><a href="#">LogIn</a></li>
+                            <li><a href="#">SignUp</a></li>
+                        </ul>
+                    </div>
+                </i>
+                
                 <div class="sectionOneB">Burger</div>
+                <!-- for the width size of 500px -->
+                <ul class="sectionOneD">
+                    <li><a href="#"><img src="images/twitter (1).png" alt="images" height="40px"></a></li>
+                    <li><a href="#"><img src="images/facebook (1).png" alt="images" height="40px"></a></li>
+                    <li><a href="#"><img src="images/logo.png" alt="images" height="40px"></a></li>
+                </ul>
+                <!-- stop -->
                 <ul class="sectionOneA">
                     <li><a href=""><span class="Home">Home</span></a></li>
                     <li><a href=""><span class="Services">Services</span></a></li>
@@ -25,18 +48,19 @@
                     <li class="facebookOne"><img src="images/facebook (1).png" alt="images" height="20px"></li>
                     <li class="instagramOne"><img src="images/logo.png" alt="images" height="20px"></li>
                 </ul>
+                
             </nav>
             <section>
                 <div>
                     <div class="sectionOnetitle">
                         Best Offer
                     </div>
-                    <div class="sectionOnesuperburger">
-                        SUPER BURGER
-                    </div>
-                    <div class="sectionOneDeal">
-                        DEAL
-                    </div>
+                        <div class="sectionOnesuperburger">
+                            SUPER BURGER
+                        </div>
+                        <div class="sectionOneDeal">
+                            DEAL
+                        </div>
                     <button class="sectionOnebutton">
                         Order now
                     </button>
@@ -50,7 +74,9 @@
             </section>
         </div>
         <div class="sectionTwo">
-            <img src="images/introduction.png" alt="images" width="100%">
+            <section>
+            <img src="images/introduction.png" alt="images" width="80%">
+            </section>
             <div class="sectionTwoA">
                 <div class="sectionTwotitle">
                     Natural
@@ -64,20 +90,22 @@
                         the element often apper bigger than you set
                     </span>
                 </p>
-                <ul>
-                    <li>This album is to create css rules based</li>
-                    <br>
-                    <li>This album is to create css rules based</li>
-                    <br>
-                    <li>This album is to create css rules based</li>
-                </ul>
+                <span class="sectionTwoClassC">
+                    <ul>
+                        <li>This album is to create css rules based</li>
+                        <br>
+                        <li>This album is to create css rules based</li>
+                        <br>
+                        <li>This album is to create css rules based</li>
+                    </ul>
+                </span>
                 <div class="sectionTwoAboutus">
                     <button>About us</button>
                 </div>
             </div>
         </div>
         <div class="sectionThreeClassA">
-            <div><img src="images/3.png" alt="images" width="100%"></div>
+            <div class="firstimage"><img src="images/3.png" alt="images" width="100%"></div>
             <div><img src="images/2 (1).png" alt="images" width="100%"></div>
             <div><img src="images/3.png" alt="images" width="100%"></div>
         </div>
@@ -88,7 +116,7 @@
                 </div>
                 <h1>What's New</h1>
                 <p>This means when you set This means when you set the width</p>
-            </div>
+            </div> 
             <div class="sectionFourClassC">
                 <div>
                     <img src="images/5.png" alt="images">
@@ -169,7 +197,7 @@
             </div>
         </div>
         <div class="sectionSevenClassA">
-            <div>
+            <div class="sectionsevenClassG">
                 <h1>Burger</h1>
                 <ul>
                     <li>
@@ -183,6 +211,12 @@
                         <li><img src="images/facebook.png" alt="images" height="20px"></li>
                         <li><img src="images/instagram.png" alt="images" height="20px"></li>
                     </ul>
+                    <ul class="section-min-screen-diplay">
+                        <li><img src="images/twitter.png" alt="images" height="50px"></li>
+                        <li><img src="images/facebook.png" alt="images" height="50px"></li>
+                        <li><img src="images/instagram.png" alt="images" height="50px"></li>
+                    </ul>
+
                 </ul>
             </div>
             <div class="sectionSevenClassC">
@@ -223,8 +257,8 @@
             Martins@Burger2020.all right reserved
         </div>
     </div>
-    <script src="buger.js"></script>
-
+  
+    
 </body>
 
 </html>

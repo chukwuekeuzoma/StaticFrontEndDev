@@ -1,0 +1,27 @@
+.Home:hover{
+    background-color: rgb(151, 151, 147);
+    color:white;
+    border-radius:5px;
+}
+.Services:hover{
+    background-color: rgb(151, 151, 147);
+    color:white;
+    border-radius:5px;
+}
+.AboutUs:hover{
+    background-color: rgb(151, 151, 147);
+    color:white;
+    border-radius:5px;
+}
+.LogIn:hover{
+    background-color: rgb(151, 151, 147);
+    color:white;
+    border-radius:5px;
+}
+.SignUp:hover{
+    padding:5px;
+    border-radius:5px;
+    border:solid white 1px;
+    background-color: rgb(151, 151, 147);
+    color:white;
+}

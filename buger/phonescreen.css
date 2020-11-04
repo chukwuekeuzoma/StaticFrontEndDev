@@ -1,0 +1,220 @@
+@media screen and (max-width:500px) {
+    /* drop down menu */
+    a{
+        text-decoration: none;
+        color: red;
+    }
+     .fa{
+         margin-top:30px;
+         margin-left:40px;
+         color: rgb(236, 20, 20);
+     }
+     div.sub-menu ul{
+         display: none;
+         font-family:Georgia, 'Times New Roman', Times, serif
+     }
+     .fa:hover div.sub-menu ul{
+         display:block;
+         position: absolute; 
+      }
+      .fa:hover div.sub-menu ul li {
+         display:block;
+      }
+       div.sub-menu ul{
+         background: rgb(75, 70, 70);
+         padding:20px;
+         border-radius: 10px;
+         transition:0.4s;
+         margin-top: 0px;
+       }
+       div.sub-menu ul:hover{
+         transform: translateY(20px);
+      }
+       div.sub-menu ul li{
+           padding: 20px;
+           border-bottom:5px dotted white;
+       }
+       .sub-menu ul li:hover{
+          background-color: rgb(151, 151, 147); 
+          border-radius: 10px; 
+          transition:0.4s;
+          transform: translateX(20px);
+       }
+       .sub-menu ul li a:hover{
+           color: yellow;
+       }
+      /* all section one */
+  
+      .Home,.Services,.AboutUs,.LogIn,.SignUp{
+          display: none;
+      }
+      .sectionOneB{
+         font-size:60px;
+         margin-left:200px;
+      }
+      .twitterOne,.facebookOne,.instagramOne{
+         display: none;
+      }
+      .sectionOnetitle{
+          background-size:60%;
+          font-size:30px;
+          padding-top:20px;
+      }
+      .sectionOnebutton{
+         margin-left:500px;
+         width:40%;
+         font-size:25px;
+         font-weight:bold;
+      }
+      div.sectionOneonly{
+          width: 80px;
+          height: 80px;
+          font-size:25px;
+      }
+      .sectionOneD{
+          display:block;
+          position: absolute;
+          left:750px;
+          top:20px;
+      }
+      ul.sectionOneD li{
+          padding:3px;
+      }
+      /* All section two */
+      .sectionTwo{
+          margin:80px;
+      }
+      .sectionTwotitle{
+          background-size:50%;
+          font-size:30px;
+          padding-top:23px;
+      }
+     .sectionTwo section{
+         width:500px;
+         height:500px;
+     }
+     .sectionTwoA{
+      margin-top:10px
+     }
+     .sectionTwoClassA{
+         font-size:60px;
+         line-height:70px;
+     }
+     .sectionTwo div p li{
+         display:none;
+     }
+     .sectionTwoClassB{
+         font-size:30px;
+     }
+     .sectionTwoClassC{
+         display: none;
+     }
+     .sectionTwoAboutus button{
+         width:40%;
+         font-size:25px;
+         font-weight:bold;
+     }
+     /* all section three */
+     .sectionThreeClassA{
+      display:grid;
+      grid-template-columns:50% 50%;
+      grid-auto-columns: auto;
+     }
+     .firstimage{
+         display:none;
+     }
+     /* all section four */
+     .sectionFourtitle{
+          background-size:30%;
+          font-size:40px;
+          padding-top:23px
+     }
+     .sectionFourClassA{
+         margin: 10px;
+     }
+     .sectionFourClassC div p{
+        display: none;
+     }
+     .sectionFourClassC  div h3{
+         font-size: 30px;
+     }
+     
+     .sectionFourClassB h1{
+         font-size:50px;
+     }
+     .sectionFourClassB p{
+       font-size:30px;
+      }
+      /* all of section five */
+     .sectionFiveclassA{
+      display:grid;
+      grid-template-columns:50% 50%;
+      grid-auto-rows:auto;
+     }
+     /* all of section six */
+     .sectionSixINSTA h1{
+        font-size:50px;
+     }
+     .sectionSixINSTA p{
+         font-size:30px;
+         padding:20px;
+     }
+     .sectionSixClassA{
+      display:grid;
+      grid-template-columns:33.3% 33.3% 33.3%;
+      grid-auto-rows:minmax(100px,auto);
+      gap: 10px;
+      margin:50px;
+      margin-top:10px;
+     }
+     .sectionSixtitle{
+      background-size:30%;
+      font-size:40px;
+      padding-top:23px
+     }
+     /* all section seven */
+     .sectionSevenClassC{
+         display: none;
+     }
+     .sectionSevenClassD{
+         display: none;
+     }
+     .sectionSevenClassE{
+         display: none;
+     }
+      ul.sectionSevenClassB{
+         display: none;
+     }
+     .section-min-screen-diplay{
+         display: none;
+     }
+     .sectionSevenClassF{
+          font-size: 30px;
+     }
+     .sectionSevenInput button{
+         height:50px;
+         font-size:30px;
+         font-weight: bolder;
+     }
+     .sectionSevenClassF input{
+         height:50px;
+         font-size:30px;
+     }
+     .sectionSevenClassF input::placeholder{
+         font-size:30px;
+         padding-top:10px;
+     }
+     .sectionsevenClassG h1{
+         font-size:50px;
+         
+     }
+     .sectionsevenClassG ul p{
+         font-size:30px;
+     }
+    .sectionEightClassA{
+        font-size:30px;
+        font-weight: bold;
+    }
+     
+    
+  }

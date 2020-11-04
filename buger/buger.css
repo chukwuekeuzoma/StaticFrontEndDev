@@ -1,10 +1,12 @@
 body{
     margin:0;
+    width:100vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container{
     display:grid;
     grid-auto-rows:minmax(auto, auto);
+    width:100%;
 } 
 .sectionOne{
     position: relative;
@@ -21,6 +23,13 @@ body{
    font-size:30px;
    padding:15px;
 }
+ /* .sub-menu{
+    display: none;
+} */
+.sectionOneD{
+    display: none;
+}
+
 nav{
     display: flex;
     justify-content:space-between;
@@ -169,7 +178,6 @@ div.sectionOneonly{
 .sectionTwoA{
   position: relative;
   width:100%;
-  float:right;
   margin-top:100px;
 }
 .sectionTwoA p{
@@ -341,42 +349,20 @@ ul.sectionSevenClassB li{
  .sectionSevenClassF{
     position: relative;
 } 
+.section-min-screen-diplay{
+    display: none;
+}
 .sectionEightClassA{
     background-color: black;
     color:white;
     text-align: center;
     padding:20px;
 }
-/* css Animation section */
-.Home:hover{
-    background-color: rgb(151, 151, 147);
-    color:white;
-    border-radius:5px;
-}
-.Services:hover{
-    background-color: rgb(151, 151, 147);
-    color:white;
-    border-radius:5px;
-}
-.AboutUs:hover{
-    background-color: rgb(151, 151, 147);
-    color:white;
-    border-radius:5px;
-}
-.LogIn:hover{
-    background-color: rgb(151, 151, 147);
-    color:white;
-    border-radius:5px;
-}
-.SignUp:hover{
-    padding:5px;
-    border-radius:5px;
-    border:solid white 1px;
-    background-color: rgb(151, 151, 147);
-    color:white;
-    
-}
 
+
+
+
+   
 
 
 

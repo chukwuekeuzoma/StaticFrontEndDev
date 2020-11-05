@@ -9,8 +9,7 @@
 function SubMenu(){
   var expandableNavBar = document.getElementById("sub-menu");
   let status ="";
-  
-  if (expandableNavBar.style.display === "none" || !expandableNavBar.style.display){ status = "block"}
+   if (expandableNavBar.style.display === "none" || !expandableNavBar.style.display){ status = "block"}
   else status = "none"
 //   console.log(status)
 //   console.log(expandableNavBar.style.display)

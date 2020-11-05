@@ -23,11 +23,14 @@ body{
    font-size:30px;
    padding:15px;
 }
- /* .sub-menu{
+.sub-menu{
     display: none;
-} */
+}
 .sectionOneD{
     display: none;
+}
+.fa{
+    display:none;
 }
 
 nav{
@@ -358,19 +361,3 @@ ul.sectionSevenClassB li{
     text-align: center;
     padding:20px;
 }
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-

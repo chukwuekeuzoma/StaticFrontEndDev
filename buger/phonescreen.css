@@ -1,13 +1,17 @@
-@media screen and (max-width:500px) {
+@media screen and (max-width:800px) {
     /* drop down menu */
     a{
         text-decoration: none;
         color: red;
     }
      .fa{
+         display:block;
          margin-top:30px;
          margin-left:40px;
          color: rgb(236, 20, 20);
+     }
+     .fa  div ul li{
+         font-size:30px ;
      }
      div.sub-menu ul{
          display: none;
@@ -32,7 +36,6 @@
       }
        div.sub-menu ul li{
            padding: 20px;
-           border-bottom:5px dotted white;
        }
        .sub-menu ul li:hover{
           background-color: rgb(151, 151, 147); 
@@ -215,6 +218,6 @@
         font-size:30px;
         font-weight: bold;
     }
-     
-    
-  }
+}
+
+
